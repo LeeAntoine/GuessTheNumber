@@ -10,6 +10,8 @@ def main():
         print('You are correct! Bet you can\'t do it again.')
    else:
         print('Wrong. Try again')
+   
+   #this is for checking the size of the number
    if(user_guess > value):
          print('Too big')
    elif(user_guess < value):
