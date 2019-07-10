@@ -1,7 +1,7 @@
 import random
 
 def main():
-   value = random.randint(1, 20)
+   value = random.randint(1, 5)
 
    print('Guess the number: ')
    user_guess = input()
